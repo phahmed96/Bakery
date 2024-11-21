@@ -1,0 +1,473 @@
+
+ 
+ /* <!------------------- home section----------------- -- > */
+
+
+ *
+ {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ p{
+    font-family: Alegreya Sans;
+    font-weight:400;
+    color: rgb(104, 104, 104);
+    font-size: 20px;
+ }
+ h2{
+    font-family:Alegreya;
+    font-weight: 400px;
+ }
+
+
+.home{
+    height: 100vh;
+    background-image: url(../Images/drew-coffman-1872.jpg);
+overflow: auto;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+
+.nav-logo{
+    
+    width: 12%;
+    margin-top: 10px;
+    float: left;
+}
+
+.nav-logo img{
+    width: 100%;
+}
+.clear-fix{
+    clear: both;
+}
+
+
+.nav-links ul {
+    float: right;
+    margin-top: 10px;
+    font-family: "Alegreya" ;
+
+}
+
+.nav-links ul li{
+
+list-style-type: none;
+float: left;
+padding: 15px;
+}
+
+.nav-links ul li a{
+
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+
+
+
+.home-cap{
+   
+margin-top: 50px;
+    text-align: center;
+    color:  rgb(255, 255, 255);
+}
+.home-cap p{
+    font-size:23px ;
+    font-family: Alegreya Sans;
+    font-weight:400;
+    Color:rgba(255, 255, 255, 0.92);
+}
+.home-cap h1{
+    font-size: 66px;
+    font-weight:400;
+    font-family: "Alegreya" ;
+    margin: 20px 0;
+}
+
+
+.home-cap .btn{
+    margin-top: 50px;
+    color: white;
+    font-size: 17px;
+    font-family: Alegreya Sans;
+    font-weight:400;
+    border-radius: 4px;
+    padding: 15px;
+}
+.home-cap .btn:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.home-cap .btn1{
+    background-color:#8e7754;
+    /* border-style: none; or */
+        border-width: 0;
+}
+.home-cap .btn2{
+    background-color:transparent;
+    border: 2px solid white;
+}
+.scroll{
+    width: 36px;
+    height: 46px;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 12%;
+    border-radius: 14px;
+    border: 2px solid white;
+}
+/* <!---------------------- </Home End>------------ --> */
+
+
+/* ---------------------about section---------------- */
+
+
+
+.about{
+
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+.about-img{
+    width: 50%;
+    float: left;
+}
+
+.about-img img{
+    
+    width: 100%;
+    
+    margin-top: 70px;
+}
+.about-cap{
+   
+    
+    width: 50%;
+    float: right;
+    margin-top: 15%;
+    padding-left: 60px; 
+    font-size: 18px;
+    color: #686868;
+    text-align: center;
+
+}
+
+.about-cap h2{
+    color: black;
+}
+
+.about-cap p{
+    margin-block: 50px;
+}
+
+.about-list{
+    text-align: left;
+}
+
+.about-list ul li{
+    padding-block: 15px;
+}
+
+/* <!-- ----------------------------About End-------------- --> */
+
+/* <!-- -----------------------------our history--------------------- --> */
+
+
+.our-history{
+background-color: #f8f8f8;
+    overflow: hidden;
+width: 80%;
+margin: auto;
+margin-top: 6%;
+
+
+}
+
+.history-cap{
+  
+    width: 40%;
+    float: left;
+    margin: 30px 50px;
+    color: #686868;
+    padding-top: 15%;
+}
+
+
+.history-img{
+    width: 50%;
+ 
+    float: right;
+
+
+
+}
+.history-img img{
+width: 100%;
+margin-top: 50px;
+padding-top: 40px;
+}
+
+.history-cap .para{
+margin: 40px 0;
+line-height: 30px;
+}
+
+
+.history-cap h2{
+    color: black;
+}
+
+
+
+
+
+
+.clr-fix{
+    clear: both;
+} 
+
+
+/* <!-- -----------------------------our history End--------------------- --> */
+
+/* <!-- -----------------------------our Baking--------------------- --> */
+
+
+
+
+.our-baking{
+    
+    text-align: center;
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    margin-top: 13%;
+
+}
+.our-baking p{
+    margin-block: 20px;
+}
+
+.baking-item{
+    margin-top: 50px;
+    width: 33%;
+    float: left;
+    padding-inline: 20px;
+    
+
+}
+
+
+
+.baking-img img{
+
+width: 100%;
+
+}
+
+.baking-cap{
+
+text-align: center;
+}
+
+.baking-cap h2{
+    margin-block: 20px;
+}
+.baking-cap p{
+    line-height: 30px;
+}
+
+
+/* <!-- -----------------------------our Baking End--------------------- --> */
+
+
+/* <!-- -----------------------------our location--------------------- --> */
+
+
+.our-location{
+    width: 80%;
+    margin: auto;
+    margin-top: 12%;
+}
+
+.location-cap{
+    width: 40%;
+    float: left;
+}
+
+.location-cap p{
+    margin-block: 30px;
+    line-height: 32px;
+
+}
+
+.location-map{
+    width: 40%;
+    float:right;
+}
+
+.location-list ul li {
+    margin-block: 40px;
+}
+
+/* <!-- -----------------------------our location End--------------------- --> */
+
+
+/* <!-- -----------------------------contact--------------------- --> */
+
+
+.contact{
+    margin-top: 12%;
+    background-color: #403d38;
+}
+.contact-info{
+    width: 25%;
+    float: left;
+    padding-inline: 30px;
+    margin-top: 40px;
+    color: #c3bbbb;
+   
+}
+
+.contact-info h3{
+    color: white;
+}
+.contact-info p{
+    margin-block: 20px ;
+    font-family: Alegreya Sans;
+    color: #c3bbbb;
+}
+
+.contact-info ul li {
+    list-style-type: none;
+    margin-block: 20px;
+}
+
+.contact-info ul li span {
+    padding: 10px;
+}
+.contact-info ul .icon{
+    line-height: 30px;
+    
+}
+
+/* <!-- -----------------------------contact End--------------------- --> */
+
+
+/* <!-- -----------------------------our info--------------------- --> */
+
+
+.info{
+    background-color: #353330;
+}
+
+.info-cap{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0;
+    
+}
+
+.info-cap p{
+    margin-block: 20px;
+}
+.info-cap img{
+    width: 100%;
+}
+
+.info-icons i{
+    padding: 10px;
+    font-size:30px;
+}
+
+.info-icons i:hover{
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
